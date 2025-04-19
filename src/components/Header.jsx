@@ -12,8 +12,8 @@ const Header = () => {
                     </a>
                 </h1>
                 <div className='relative md:justify-self-center'>
-                    <button className='menu-btn md:hidden' onClick={null}>
-                        <span className='material-symbols-rounded'>menu</span>
+                    <button className='menu-btn md:hidden' onClick={()=> setNavOpen((prev)=> !prev)}>
+                        <span className='material-symbols-rounded'>{navOpen? 'close':'menu'}</span>
                     </button>
 
                     <Navbar navOpen={navOpen}/>
