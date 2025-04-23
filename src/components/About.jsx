@@ -1,9 +1,9 @@
 import React from 'react'
-
+import {WorkCount} from './Work'
 const aboutItems = [
   {
     label: 'Project done',
-    number: 3,
+    number: WorkCount,
   },
   {
     label: 'Years of experience',

@@ -40,6 +40,8 @@ const works = [
     //   projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
     // },
   ];
+  // let WorkCount = works.length ;
+  export const WorkCount = works.length
 
 const Work = () => {
   return (
