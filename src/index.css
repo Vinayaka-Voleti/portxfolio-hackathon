@@ -49,6 +49,21 @@ body {
   @apply w-full h-full object-cover
 }
 
+.headline-1 {
+  @apply max-w-max;
+  background: -webkit-linear-gradient(0deg, #fafafa, #aaaaff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .headline-1{
-  @apply text-5xl leading-tight font-semibold lg:text-[55px]
+  @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15]
+}
+.btn .material-symbol-rounded{
+  @apply text-[18px]
+}
+
+
+.btn-primary{ 
+  @apply h-11 bg-sky-400 text-zinc-950 hover:bg-sky-300 active:bg-sky-400 rounded-md
 }
