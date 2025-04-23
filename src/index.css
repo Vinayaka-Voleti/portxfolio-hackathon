@@ -49,7 +49,7 @@ body {
   @apply w-full h-full object-cover
 }
 
-.headline-1 {
+.headline-1{
   @apply max-w-max;
   background: -webkit-linear-gradient(0deg, #fafafa, #aaaaff);
   -webkit-background-clip: text;
@@ -70,4 +70,18 @@ body {
 
 .btn-outline {
   @apply h-11 bg-zinc-800 hover:bg-zinc-700 active:bg-zinc-800
+}
+
+.section{
+  @apply pt-20 lg:pt-23
+}
+
+.headline-{
+  @apply max-w-max;
+  background: -webkit-linear-gradient(0deg, #fafafa, #aaaaff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.headline-2{
+  @apply text-3xl lg:text-4xl lg:leading-tight font-semibold
 }
