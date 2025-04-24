@@ -67,7 +67,7 @@ const Hero = () => {
             <div className='flex items-center gap-3'>
               <figure className='img-box w-9 h-9 rounded-lg'>
                 <img 
-                  src="../src/assets/bgHero1.jpg" 
+                  src="../public/assets/bgHero1.jpg" 
                   width={40}
                   height={40}
                   className='img-cover'
@@ -93,7 +93,7 @@ const Hero = () => {
               <ButtonPrimary
                 label="Download CV"
                 icon="download"
-                href='./public/Vinayaka_Resume.pdf'
+                href='/Vinayaka_Resume.pdf'
                 target='_blank'
                 classes="hover:scale-105"
                 download

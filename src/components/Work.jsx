@@ -4,25 +4,25 @@ import ProjectCard from './ProjectCard';
 
 const works = [
     {
-      imgSrc: './src/assets/Work1.jpg',
+      imgSrc: '/assets/Work1.jpg',
       title: 'KonnexWeb',
       tags: ['Auth', 'Payment'],
       projectLink: 'https://github.com/Vinayaka-Voleti/SupaSafe'
     },
     {
-      imgSrc: './src/assets/Work2.jpg',
+      imgSrc: '/assets/Work2.jpg',
       title: 'ChitChat App',
       tags: ['React', 'Realtime', 'Go'],
       projectLink: 'https://github.com/Vinayaka-Voleti/Chit-Chat'
     },
     {
-      imgSrc: './src/assets/Work3.jpg',
+      imgSrc: '/assets/Work3.jpg',
       title: 'Python Quiz App',
       tags: ['Python', 'TkinterGUI'],
       projectLink: 'https://github.com/Vinayaka-Voleti/Python-Quiz-Game'
     },
     {
-      imgSrc: './src/assets/Work4.png',
+      imgSrc: '/assets/Work4.png',
       title: 'Learn_R',
       tags: ['React', 'Development'],
       projectLink: 'https://github.com/Vinayaka-Voleti/Learn_R'
